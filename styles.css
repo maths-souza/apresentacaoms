@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #D3D3D3;
+    color: #2874A6;
+    text-align: center;
+}
+
+section, .introducao {
+    background-color: #FFFFFF;
+    padding: 1.2rem;
+    margin: 0 auto 1.8rem;
+    width: 600px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #2874A6;
+    color: #FFFFFF;
+    padding: 1.2rem;
+    margin-bottom: 1.8rem;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.6rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.introducao img {
+    width: 240px;
+    height: 240px;
+    display: block;
+    margin: 0 auto 1.2rem;
+}
+
+.introducao h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0.6rem;
+}
+
+.introducao p {
+    font-size: 1.2rem;
+}
+
+#sobre-mim h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0.6rem;
+}
+
+#sobre-mim p {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+#carreira h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.6rem;
+}
+
+#carreira p {
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.habilidades span {
+    background-color: #2874A6;
+    color: #FFFFFF;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.habilidades span:hover {
+    background-color: #D3D3D3;
+    color: #2874A6;
+}
+
+#hobbies h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.6rem;
+}
+
+#hobbies ul {
+    list-style: none;
+    font-size: 1rem;
+}
+
+#hobbies ul li {
+    margin-bottom: 0.6rem;
+}
+
+footer {
+    background-color: #2874A6;
+    color: #FFFFFF;
+    padding: 1.2rem;
+    font-size: 1rem;
+}
